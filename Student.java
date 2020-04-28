@@ -1,18 +1,9 @@
 public class Student{
 
-	private Integer sid;
 	private String name;
 
-	public void setSid(Integer sid){
-		this.sid = sid;
-	}
-
-	public void setName(String name){
+	public void getName(){
 		this.name = name;
-	}
-
-	public Integer getSid(){
-		return sid;
 	}
 
 	public String getName(){
